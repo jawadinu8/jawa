@@ -36,4 +36,4 @@ run: | Set-ItemProperty -Path
 
 'HKLM\System\CurrentControlSet\Control \Terminal Server' -name
 
-"fDenyTSConnections" -Value 0 Enable-NetFirewall Rule - DisplayGroup "Remote Desktop" Set-ItemProperty
+"fDenyTSConnections" -Value 0 Enable-NetFirewall Rule - DisplayGroup "Remote Desktop" Set-ItemProperty -Path
